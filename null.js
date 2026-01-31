@@ -14,7 +14,7 @@ document.getElementById("ordernow").addEventListener("submit", ordernow); // Cor
 
 // Function to Handle Form Submission
 function ordernow(e) {
-    e.preventDefault(); // Prevent default form submission behavior
+    e.preventDefault(); // Prevent default form submission behaviors
     
     // Get form values
     var name = getElementVal("name");
